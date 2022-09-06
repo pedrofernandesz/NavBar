@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav Bar</title>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #logo{
+            color: blueviolet;
+        }
+
+        header{
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #flex-container{
+            display: flex;
+        }
+
+        nav > ul > a{
+            color: black;
+            text-decoration: none;
+            list-style: none;
+            margin-right: 30px;
+        }
+
+        nav > ul > a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="logo">Logo</h1>
+        </div>
+        <nav>
+            <ul id="flex-container">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
